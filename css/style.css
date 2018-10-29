@@ -115,6 +115,27 @@ footer {
 	padding: 40px;
 }
 
+.figure {
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 350px;
+	width: 45%;
+	margin-bottom: 20px;
+	border-radius: 4px;
+	box-shadow: 0 3px 4px 0 rgba(0, 0, 0, .14), 0 3px 3px -2px rgba(0, 0, 0, .2), 0 1px 8px 0 rgba(0, 0, 0, .12);
+}
+
+.figure-right {
+	float: left;
+	margin-right: 20px;
+}
+
+.figure-left {
+	float: right;
+	margin-left: 20px;
+}
+
 input[type=text], input[type=date], input[type=time] {
 	width: 100%;
 	padding: 12px 20px;
