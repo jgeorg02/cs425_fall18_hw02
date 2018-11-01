@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
 </head>
 
 <body>
@@ -28,20 +29,20 @@
         </nav>
     </header>
 
-    <div class="container paddingTopBottom">
+    <div class="container padding-top-bottom">
 
         <h1 class="text-center">
             CONTACT ME
         </h1>
 
-        <div class="bg-white paddingTopBottom">
+        <div class="bg-white padding-top-bottom">
             <div class="container">
                 <h1 class="text-center">
                     INFO
                 </h1>
                 <!-- Info -->
-                <article class="paddingTopBottom clear">
-                    <table align="center" class="info_table">
+                <article class="padding-top-bottom clear">
+                    <table align="center" class="info-table">
                         <tbody>
                             <tr>
                                 <td class="dark">
@@ -64,15 +65,17 @@
                     MESSAGE ME
                 </h1>
                 <!-- Contact Form -->
-                <div class="bg-light-grey paddingTopBottom">
+                <div class="bg-light-grey padding-top-bottom">
                     <div class="container">
                         <div class="contact-card bg-white">
                             <form method="POST" action="index.html">
-                                <label>Meeting Date</label>
-                                <input type="date" id="meetingdate" name="meetingdate" value="2018-10-06" min="2018-10-06"
-                                    max="2020-12-31">
-                                <label>Meeting Time</label>
-                                <input type="time" id="meetingtime" name="meetingtime" value="10:00" min="10:00" max="18:00">
+                                <div class="meeting-time-date">
+                                    <label>Meeting Date</label>
+                                    <input type="date" id="meetingdate" name="meetingdate" value="2018-10-06" min="2018-10-06"
+                                        max="2020-12-31">
+                                    <label>Meeting Time</label>
+                                    <input type="time" id="meetingtime" name="meetingtime" value="10:00" min="10:00"
+                                        max="18:00"></div>
                                 <label>Full Name</label>
                                 <input type="text" id="name" name="name" value="" placeholder="John Smith">
                                 <label>Email</label>
@@ -80,7 +83,7 @@
                                 <label>Subject</label>
                                 <input type="text" id="subject" name="subject" value="" placeholder="Subject...">
                                 <label>Message</label>
-                                <textarea name="Msg" id="Msg" cols="30" rows="10" placeholder="Message..."></textarea>
+                                <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Message..."></textarea>
                         </div>
                         <div align="center">
                             <input type="submit" value="SUBMIT">
@@ -90,11 +93,12 @@
                 </div>
             </div>
         </div>
+        <a class="my-btn" href="contact.html">Top</a>
         <!-- /Contact Form -->
     </div>
 
 
-    <footer class="paddingTopBottom">
+    <footer class="padding-top-bottom">
         <h3 class="margin-0 text-center">2018 John Doe. All Copyrights reserved.</h3>
     </footer>
 
