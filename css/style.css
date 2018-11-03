@@ -112,7 +112,7 @@ footer {
 
 .vision-table {
 	padding: 5px 10px;
-    width: 100%;
+    width: 90%;
 	border: 10px solid #FFF;
 }
 
@@ -123,6 +123,10 @@ footer {
 
 .meeting-time-date {
 	column-count: 2
+}
+
+.olive {
+	border: 3px solid #808000;
 }
 
 .banner {
