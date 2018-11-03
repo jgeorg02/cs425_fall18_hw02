@@ -1,3 +1,4 @@
+/* Importing external font family: */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 * {
 	font-family: 'Roboto', 'Verdana', sans-serif;
@@ -109,6 +110,12 @@ footer {
 	width: 400px;
 }
 
+.vision-table {
+	padding: 5px 10px;
+    width: 100%;
+	border: 10px solid #FFF;
+}
+
 .contact-card {
 	border-radius: 4px;
 	padding: 40px;
@@ -118,8 +125,6 @@ footer {
 	column-count: 2
 }
 
-
-/* The banner */
 .banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/banner.jpg");
     height: 100%;
@@ -159,6 +164,15 @@ footer {
 	margin-left: 20px;
 }
 
+.figure-no-shadow {
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px; 
+	width: auto;
+	opacity:0.7;
+}
+
 .my-btn {
 	background: rgb(51, 51, 51);
 	color: white; 
@@ -174,6 +188,10 @@ footer {
 
 .my-btn:hover {
     background-color: #555;
+}
+
+.avatar {
+	border-radius: 50%;
 }
 
 input[type=text], input[type=date], input[type=time] {
@@ -218,6 +236,12 @@ input[type=submit]{
 /* to apply different styles for different media types / devices. */
 @media (max-width: 768px) {
 	.container {
+		width: auto;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin: 0px;
+	}
+	.vision-table {
 		width: auto;
 		padding-left: 10px;
 		padding-right: 10px;
